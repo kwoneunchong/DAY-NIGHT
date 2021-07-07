@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+
+/* 초기화 */
+* {
+    margin: 0; padding: 0;
+}
+a { text-decoration: none !important; }
+img { border: 0; }
+ul { list-style: none; }
+
+/* 본문폭 */
+#wrap {
+    width: 960px; 
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* GNB */
+
+#main_header > .gnb_container {
+    background: black;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#main_header .gnb {
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+#main_header .logo {
+    float: left;
+    width: 190px;
+    margin-left: 120px;
+    padding-top: 12px;
+}
+
+#main_header ul {
+    float: left;
+    overflow: hidden;
+    padding-left: 30px;
+}
+
+#main_header ul > li {
+    font-size: 14px;
+    float: left;
+    padding: 22px 17px;
+    padding-top: 12px;
+}
+
+
+#main_header .lnb {
+    font-size: 14px;
+    float: right;
+    width: 260px;
+    text-align:right;
+    padding-top: 12px;
+    margin-right: 120px;
+}
+
+#main_header .trigger {
+    float: right;
+    width: 23px;
+    text-align: right;
+    padding-top: 4px;
+    display: none;
+}
+
+/* footer */
