@@ -19,7 +19,7 @@ ul { list-style: none; }
 
 /* GNB */
 
-#main_header > .gnb_container {
+#main_navbar > .gnb_container {
     background: black;
     height: 40px;
     position: fixed;
@@ -27,26 +27,26 @@ ul { list-style: none; }
     z-index: 1;
 }
 
-#main_header .gnb {
+#main_navbar .gnb {
     overflow: hidden;
     margin: 0 auto;
     position: relative;
 }
 
-#main_header .logo {
+#main_navbar .logo {
     float: left;
     width: 190px;
     margin-left: 120px;
     padding-top: 12px;
 }
 
-#main_header ul {
+#main_navbar ul {
     float: left;
     overflow: hidden;
     padding-left: 30px;
 }
 
-#main_header ul > li {
+#main_navbar ul > li {
     font-size: 14px;
     float: left;
     padding: 22px 17px;
@@ -54,7 +54,7 @@ ul { list-style: none; }
 }
 
 
-#main_header .lnb {
+#main_navbar .lnb {
     font-size: 14px;
     float: right;
     width: 260px;
@@ -63,7 +63,7 @@ ul { list-style: none; }
     margin-right: 120px;
 }
 
-#main_header .trigger {
+#main_navbar .trigger {
     float: right;
     width: 23px;
     text-align: right;
@@ -73,28 +73,28 @@ ul { list-style: none; }
 
 /* 0 ~ 767 */
 @media screen and (max-width: 767px) {
-    #main_header .gnb {
+    #main_navbar .gnb {
         width: 90vw;
     }
 
-    #main_header .logo {
+    #main_navbar .logo {
         padding-top: 12px;
         width: 50px;
     }
 
 
-    #main_header .lnb {
+    #main_navbar .lnb {
         float: right;
         padding-top: 12px;
         width: 50px;
     }
 
 
-    #main_header .nav { 
+    #main_navbar .nav { 
         display: none;
     }
 
-    #main_header .trigger {
+    #main_navbar .trigger {
         display: block;
         position: absolute;
         float: left;
@@ -105,7 +105,7 @@ ul { list-style: none; }
 
 /* 768 ~ 1023 */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    #main_header .gnb, .lnb {
+    #main_navbar .gnb, .lnb {
         width: 90vw;
     }
 }
@@ -115,3 +115,46 @@ ul { list-style: none; }
 
 }
 /* footer */
+.footer {
+    overflow: hidden;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color:#34495e;
+}
+.footer-info {
+    margin-left:120px;
+    margin-right:120px;
+}
+.content {
+    float: left;
+    color:#fff;
+}
+.content > P {
+    font-size: 11PX;
+}
+.sns {
+    float: right;
+}
+.sns a {
+    margin-right:30px;
+}
+
+@media screen and (min-width:764px) {
+    .footer {
+        padding-top:10px;
+        padding-bottom:10px;
+        background-color:#34495e;
+    }
+    .content {
+        float: none;
+        color:#fff;
+    }
+    .content > P {
+        font-size: 11px;
+    }
+    .sns {
+    }
+    .sns a {
+        margin-right:10px;
+    }
+}
