@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="library/3d-slider-master/3d-slider-master/style.css">
 
     
 </head>
@@ -31,8 +31,7 @@
                     <a href="#"><img src="img/logo.svg" alt="예약조회"></a>
                 </div>
                 <div class="trigger">
-                    <a href="#" class="mobile hamburger"><img src="img/logo.svg" alt=""></a>
-                    <a href="#" class="mobile close"><img src="img/logo.svg" alt="로고"></a>
+                    <a href="#" class="mobile hamburger"><img src="img/logo.svg" alt="메뉴"></a>
                 </div>
             </div>
         </div>
@@ -55,21 +54,42 @@
         <div id="slideIn">
             <div class="gomenu">
                 <a href="#"><img src="http://placehold.it/240x200" ></a>
-                <p>DAY&NIGHT의 서비스 이용안내  ></p>				
+                <p class="subtitle">DAY&NIGHT의 서비스 이용안내  ></p>
+                <p>DAY&NIGHT의 브랜드 컨셉과 자세한 이용방법을 보실 수 있습니다.</p>			
             </div>
             <div class="gomenu">
                 <a href="#"><img src="http://placehold.it/240x200" ></a>
-                <p>MENU 한눈에 보기  ></p>				
+                <p class="subtitle">MENU 한눈에 보기  ></p>		
+                <P>DAY&NIGHT 메뉴의 종류와 가격을 보실 수 있습니다.</P>	
             </div>
             <div class="gomenu">
                 <a href="#"><img src="http://placehold.it/240x200" ></a>
-                <p>편리한 이용을 위한 예약시스템  ></p>				
+                <p class="subtitle">편리한 이용을 위한 예약시스템  ></p>	
+                <P>날짜와 간단한 정보입력으로 예약후 편리하게 이용하세요.</P>	
             </div>
         </div>
     </div>
     
     <!-- Slider2 -->
-
+    <div class="container">
+        <div class="button" onclick="shiftLeft()"><img src="https://image.ibb.co/mRsEb7/left_arrow.png" alt=""></div>
+        <div class="cards-wrapper">
+            <div class="card__text-content">
+                <h3 class="card__title">The Famous Five</h3>
+                <div class="card__summary">The Famous Five is a series of children's adventure novels written by English author Enid Blyton. The first book, Five on a Treasure Island, was published in 1942.</div>
+            </div>
+            <ul class="cards__container">
+                <li class="box" style="background-color:red">box 1</li>
+                <li class="box">box 2</li>
+                <li class="box">box 3</li>
+                <li class="box">box 4</li>
+                <li class="box">box 5</li>
+                <li class="box box--hide">box 6</li>
+                <li class="box box--hide">box 7</li>
+            </ul>
+        </div>
+        <div class="button" onclick="shiftRight()"><img src="https://image.ibb.co/dfPSw7/right_arrow.png" alt=""></div>
+    </div>
     <!-- <div class="wrap">
         <div class="slider-2">
             <header id="header">
@@ -122,5 +142,7 @@
             </div>
         </div>
     </section>
+    <script src="library/3d-slider-master/3d-slider-master/app.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
 </body>
 </html>
