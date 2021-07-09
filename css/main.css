@@ -87,19 +87,17 @@
 /* 0 ~ 767 */
 @media screen and (max-width: 767px) {
     
-    
     #slideIn > .gomenu {
         display: block;
         float: none;
-
+        margin-left: 40px;
     }
 
     #title { 
         margin-top: 80px;
         text-align: left;
-        margin-left: 30px;
-        padding: 10px;
-        
+        margin-left: 80px;
+        margin-left: 100px;
     }
 
     #slideIn > .gomenu > .subtitle {
@@ -376,4 +374,3 @@
         display: none;
     }
 }
-
