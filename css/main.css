@@ -144,8 +144,39 @@
 
 /* 768 ~ 1023 */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    #main_navbar .gnb, .lnb {
-        width: 70vw;
+    #wrap {
+        width: 730px; 
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    #title { 
+        margin-top: 120px;
+        text-align: center;
+    }
+    
+    #slideIn {
+        overflow: hidden;
+    }
+    
+    #slideIn > .gomenu {
+        float: left;
+        display: inline-block;
+        width: 33.33%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    
+    #slideIn > .gomenu > .subtitle {
+        font-size: 14px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid black;
+    }
+    
+    #slideIn > .gomenu > p {
+        margin-top: 10px;
+        font-size: 12px;
     }
 }
 
