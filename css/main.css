@@ -54,6 +54,13 @@
 
 /* 바로가기_Slide in */
 
+/* 본문폭 */
+#wrap {
+    width: 960px; 
+    margin: 0 auto;
+    overflow: hidden;
+}
+
 #title { 
     margin-top: 120px;
     text-align: center;
@@ -68,7 +75,6 @@
     display: inline-block;
     width: 33.33%;
     box-sizing: border-box;
-    align-content: center;
     padding: 42px;
 }
 
@@ -84,20 +90,33 @@
     font-size: 12px;
 }
 
-/* 0 ~ 767 */
+
+/*0 ~ 767*/
 @media screen and (max-width: 767px) {
+
+    #wrap {
+        width: 90vw;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    #slideIn {
+        width: 90vw;
+    }
+
     
     #slideIn > .gomenu {
-        display: block;
+        width: 90vw;
+        display: inline-block;
         float: none;
-        margin-left: 40px;
     }
 
     #title { 
-        margin-top: 80px;
+        text-align: center;
+        /* margin-top: 80px;
         text-align: left;
         margin-left: 80px;
-        margin-left: 100px;
+        margin-left: 100px; */
     }
 
     #slideIn > .gomenu > .subtitle {
@@ -107,7 +126,34 @@
         border-bottom: 1px solid black;
     }
 
+    #slideIn > .gomenu > a {
+        align-content: center;
+        display:block;
+        width: 240px;
+        margin: 0 auto;
+    }
+
+    #slideIn > .gomenu > p {
+        align-content: center;
+        display:block;
+        width: 240px;
+        margin: 0 auto;
+    }
+
 }
+
+/* 768 ~ 1023 */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #main_navbar .gnb, .lnb {
+        width: 70vw;
+    }
+}
+
+/* 1024 ~ */
+@media screen and (min-width: 1024px) {
+
+}
+
 
 
 
@@ -146,7 +192,6 @@
     align-items: center;
     justify-content: center;
     height: 28rem;
-    margin-top: 60px;
 }
 
 .box {
