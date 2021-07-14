@@ -79,6 +79,7 @@
 }
 
 #slideIn > .gomenu > .subtitle {
+    font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
     padding-bottom: 10px;
