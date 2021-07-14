@@ -14,7 +14,7 @@ $(function(){
                 $(".mobile.close").show();
 
                 /* 모바일 전체 메뉴 show */
-                $("#main_header").height(60);
+                $("#main_header").height(50);
                 $("#main_content").hide();
                 $("#main_footer").hide();
 
