@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../css/introduce.css">
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../library/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 
     
@@ -46,33 +48,54 @@
             <P>낮밤(day and night)은 낮에는 밤이 그립고 밤에는 낮이 그리운<br />
             시간에 구애 받지 않고 술을 즐기게 된 젊은 세대를 타겟으로 한 주점입니다.</P>
         </div>
+        <!-- <video autoplay loop controls>
+            <source src="../images/디피영상.mov">
+        </video> -->
     </div>
 
-    <!-- 바로가기_Slide in -->
+    <!-- 컨셉 설명 바로가기_Slide in -->
     <div id="wrap">
         <div id="title">
             <h3>DAY&NIGHT 바로가기</h3>
         </div>
         <div id="slideIn">
-            <div class="gomenu">
+            <div class="gomenu" data-aos="fade-up" data-aos-duration="2000">
                 <a href="#"><img src="http://placehold.it/240x200" ></a>
                 <p class="subtitle">DAY&NIGHT의 서비스 이용안내  ></p>
             </div>
-            <div class="gomenu">
+            <div class="gomenu" data-aos="fade-up" data-aos-duration="2000">
                 <a href="#"><img src="http://placehold.it/240x200" ></a>
                 <p class="subtitle">MENU 한눈에 보기  ></p>		
             </div>
-            <div class="gomenu">
+            <div class="gomenu" data-aos="fade-up" data-aos-duration="2000">
                 <a href="#"><img src="http://placehold.it/240x200" ></a>
                 <p class="subtitle">편리한 이용을 위한 예약시스템  ></p>	
             </div>
-            <div class="gomenu">
+            <div class="gomenu" data-aos="fade-up" data-aos-duration="2000">
                 <a href="#"><img src="http://placehold.it/240x200" ></a>
                 <p class="subtitle">편리한 이용을 위한 예약시스템  ></p>	
             </div>
         </div>
     </div>
 
+    <!-- 컨셉 설명 각섹션 상세 -->
+    <div id="conceptWrap">
+        <div id="concet01">
+            <p></p>
+        </div>
+        <div id="concet02">
+            <p></p>
+        </div>
+        <div id="concet03">
+            <p></p>
+        </div>
+        <div id="concet04">
+            <p></p>
+        </div>
+    </div>
+        
+
+    
     <!-- 모바일 메뉴 -->
     <div id="mobile_menu"></div>
     
@@ -87,15 +110,20 @@
                     <p>사업자 등록번호 : 120-88-01280 호스팅책임자 : 권은총 </p>
                 </div>
                 <div class="sns">
-                    <a href="#"><img src="images/fb.png"></a>
-                    <a href="#"><img src="images/tw.png"></a>
-                    <a href="#"><img src="images/ytube.png"></a>
-                    <a href="#"><img src="images/gp.png"></a>
+                    <a href="#"><i class="fab fa-facebook-square" style="color:#fff; font-size:20px;"></i></a>
+                    <a href="#"><i class="fab fa-instagram" style="color:#fff; font-size:20px;"></i></a>
+                    <a href="#"><i class="fab fa-youtube-square" style="color:#fff; font-size:20px;"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square" style="color:#fff; font-size:20px;"></i></a>
                 </div>
             </div>
         </div>
     </div>
     <script src="../js/jquery-3.6.0.js"></script>
     <script src="../js/responsive.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script>
+      AOS.init();
+</script>
 </body>
 </html>
