@@ -221,9 +221,11 @@
     overflow: hidden;
 }
 
-#concept01 {
-    margin: 60px;
+.concept11 {
+    margin-top: 100px;
+    margin-bottom: 120px;
 }
+
 
 
 /*0 ~ 767*/
@@ -238,7 +240,7 @@
     /* 768 ~ 1023 */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     #conceptWrap {
-        width: 80vw;
+        width: 70vw;
         margin: 0 auto;
         overflow: hidden;
     }
