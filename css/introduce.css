@@ -213,6 +213,43 @@
 
 }
 
+/* 컨셉 설명 각섹션 상세  */
+
+#conceptWrap {
+    width: 50vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#concept01 {
+    margin: 60px;
+}
 
 
+/*0 ~ 767*/
+@media screen and (max-width: 767px) {
+    #conceptWrap {
+        width: 100vw;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+}
 
+    /* 768 ~ 1023 */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #conceptWrap {
+        width: 80vw;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+}
+
+    /* 1024 ~ */
+@media screen and (min-width: 1024px) {
+    #conceptWrap {
+        width: 50vw;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+}
