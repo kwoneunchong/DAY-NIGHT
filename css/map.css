@@ -48,11 +48,10 @@
 
 
 
-/* 바로가기_Slide in */
 
 /* 본문폭 */
 #wrap {
-    width: 1200px; 
+    width: 960px; 
     margin: 0 auto;
     overflow: hidden;
 }
@@ -73,7 +72,6 @@
         overflow: hidden;
     }
 }
-
    
 
 /* 768 ~ 1023 */
@@ -97,3 +95,83 @@
 
 }
 
+/* 메뉴 소개 */
+#map  {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#map > .maparticle {
+    width: 100%;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.maparticle > img {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+    margin-bottom: 42px;
+}
+#menutxt {
+    float: left;
+    width: 45%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 42px;
+}
+
+#menutxt > .mapaddress {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#menutxt > .maptitle {
+    color: #2A2465;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#menutxt > .mapsub {
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/*0 ~ 767*/
+@media screen and (max-width: 767px) {
+    #wrap {
+        width: 90vw;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    #title { 
+        text-align: center;
+    }  
+
+    .maparticle {
+        width: 90vw;
+    }
+
+    .maparticle > img {
+        display: block;
+        float: none;
+        width: 80vw;
+        margin: 0 auto;
+    }
+    #menutxt {
+        float: none;
+        width: 80vw;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #menutxt > .maptitle {
+        margin-top: 10px;
+    }
+}    

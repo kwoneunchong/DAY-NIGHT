@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/map.css">
+    <link rel="stylesheet" href="../css/reservation.css">
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../library/fontawesome-free-5.15.3-web/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -44,37 +44,49 @@
     <!-- 섹션1 -->
     <div id="section01">
         <div class="inner-txt">
-            <h2>오시는 길</h2>
-            <P>낮밤(day and night)본점으로 오시는 길<br />
-            주소와 오시는 방법, 지도를 안내해드립니다.</P>
+            <h2>예약안내</h2>
+            <P>낮밤(day and night)의 간단한 예약 시스템을 통해<br />
+            기다리지 않고 더욱 더 편리하게 이용하실 수 있습니다. </P>
         </div>
     </div>
 
-    <!-- 카카오맵 -->
+    <!-- 예약안내 정보 입력 부분 -->
 
     <div id="wrap">
-        <div id="map">
+        <div id="reservation">
             <div id="title">
-                <h3>오시는 길</h3>
+                <h3>예약안내</h3>
             </div>
-            <div class="maparticle">
-                <img src="../images/mapex.png" />
-                <div id="menutxt">
-                    <p class="maptitle">낮밤(DAY&NIGHT) 본점</p>
+            <div class="calendar">
+                <img src="../images/calendar.png">
+                <div id="reservationsub">
+                    <p class="restitle">예약 정보를 입력해주세요.</p>
                     <hr />
-                    <p class="mapaddress">
-                    - 주소 : 서울광역시 강남구 테헤란로 11-77 1층
-                    </p>
-                    <p class="mapsub">
-                    2021년을 시작으로 오픈된 낮밤의 본점 매장입니다.
-                    <br />자가 이용시 : 주차공간이 협소하므로 대중교통 이용부탁드립니다.
-                    <br />대중교통 : 강남역 5번 출구 500m 이내
-                    <br />전화번호 : 02-000-0000
-                    </p>
+                    <div class="input">
+                        <div class="input01">
+                            인원수: <br />
+                            <input type="text" name="인원수" style="width:90%;"/>
+                        </div>
+                        <div class="input02">
+                            전화번호: <br />
+                            <input type="text" name="전화번호" style="width:90%;"/>
+                        </div>
+                    </div>
+                    <div class="select">
+                        <input type="checkbox" name="01">피렌체의 석양
+                        <input type="checkbox" name="02">파리의 오전
+                        <input type="checkbox" name="03">아이슬란드의 야경
+                    </div>
+                    <div class="button">
+                        <input type="button" value="예약하기" style="width:40%;"></input>
+                        <input type="button" value="예약조회" style="width:40%"></input>
+                    </div>
                 </div>
             </div>
-        </div>
+        </div> 
     </div>
+
+
 
     <!-- 모바일 메뉴 -->
     <div id="mobile_menu"></div>
@@ -101,7 +113,6 @@
     <script src="../js/jquery-3.6.0.js"></script>
     <script src="../js/responsive.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
     <script>
       AOS.init();
 </script>

@@ -96,26 +96,30 @@
 }
 
 /* 메뉴 소개 */
-#menuintroduce  {
+#reservation  {
     margin: 0 auto;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
-#menuintroduce > .menuarticle {
+#reservation > .calendar {
     width: 100%;
     margin-top: 42px;
     margin-bottom: 42px;
     display: inline-block;
     box-sizing: border-box;
 }
-.menuarticle > img {
+.calendar > img {
     display: inline-block;
     float: left;
     width: 50%;
     margin-right: 5%;
     margin-bottom: 42px;
+    border: 1px solid #f0f0f0;
+    box-sizing: border-box;
 }
-#menutxt {
+
+#reservationsub {
     float: left;
     width: 45%;
     display: inline-block;
@@ -123,24 +127,35 @@
     margin-bottom: 42px;
 }
 
-#menutxt > .menuprice {
+
+#reservationsub  > .input {
     margin-top: 10px;
     font-size: 16px;
     font-weight: 500;
 }
 
-#menutxt > .menutitle {
+#reservationsub  > .restitle {
     color: #2A2465;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-#menutxt > .menusub {
-    color: #777777;
-    font-size: 14px;
+#reservationsub  > .input > .input01 {
+    margin-top: 10px;
     margin-bottom: 10px;
 }
+
+#reservationsub  > .input > .input02 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#reservationsub  > .input > .button {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 /*0 ~ 767*/
 @media screen and (max-width: 767px) {
@@ -154,24 +169,34 @@
         text-align: center;
     }  
 
-    .menuarticle {
-        width: 90vw;
-    }
-
-    .menuarticle > img {
-        display: block;
-        float: none;
+    #reservationsub {
+        margin-top: 10px;
         width: 80vw;
-        margin: 0 auto;
-    }
-    #menutxt {
         float: none;
-        width: 80vw;
         display: block;
         margin: 0 auto;
-    }
-
-    #menutxt > .menutitle {
         margin-top: 10px;
     }
+
+
+    .calendar > img {
+        display: block;
+        float: none;
+        width: 80vw;
+        margin: 0 auto;
+        border: 1px solid #f0f0f0;
+        box-sizing: border-box;    
+    }
+    .calendar {
+        float: none;
+        width: 80vw;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .calendar > .restitle {
+        margin-top: 10px;
+    }
+        
+
 }    
