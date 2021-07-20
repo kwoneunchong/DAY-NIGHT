@@ -53,12 +53,13 @@
     <!-- 카카오맵 -->
 
     <div id="wrap">
-        <div id="map">
+        <div id="masec">
             <div id="title">
                 <h3>오시는 길</h3>
             </div>
             <div class="maparticle" data-aos="fade-up" data-aos-duration="2000">
-                <img src="../images/mapex.png" />
+                <div id="map"></div>
+                <!-- <img src="../images/mapex.png" /> -->
                 <div id="menutxt">
                     <p class="maptitle">낮밤(DAY&NIGHT) 본점</p>
                     <hr />
@@ -99,12 +100,14 @@
         </div>
     </div>
     <script src="../js/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0d356fb91c31d9e760d2e2f5e87b1f58"></script>
     <script src="../js/responsive.js"></script>
     <script src="../js/map.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=98581f862d5feb83669522d3deda9f15"></script>
     <script>
       AOS.init();
+      var map = new Map();
+      map.getKakaoMap();
 </script>
 </body>
 </html>
