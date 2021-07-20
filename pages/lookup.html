@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/reservation.css">
+    <link rel="stylesheet" href="../css/lookup.css">
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../library/fontawesome-free-5.15.3-web/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -44,9 +44,9 @@
     <!-- 섹션1 -->
     <div id="section01">
         <div class="inner-txt">
-            <h2>예약안내</h2>
-            <P>낮밤(day and night)의 간단한 예약 시스템을 통해<br />
-            기다리지 않고 더욱 더 편리하게 이용하실 수 있습니다. </P>
+            <h2>예약조회</h2>
+            <P>낮밤(day and night) 예약 조회 서비스 입니다.<br />
+            정보를 입력하여 예약하신 현황을 확인하실 수 있습니다. </P>
         </div>
     </div>
 
@@ -55,32 +55,23 @@
     <div id="wrap">
         <div id="reservation">
             <div id="title">
-                <h3>예약안내</h3>
+                <h3>예약조회</h3>
             </div>
             <div class="calendar" data-aos="fade-up" data-aos-duration="2000">
-                <img src="../images/calendar.png">
+                <img src="../images/lookup.png">
                 <div id="reservationsub">
-                    <p class="restitle">예약 정보를 입력해주세요.</p>
+                    <p class="restitle">예약하신 정보를 입력하세요.</p>
                     <hr />
                     <div class="input">
-                        <div class="input01">
-                            인원수: <br />
-                            <input type="text" name="인원수" style="width:90%;"/>
-                        </div>
                         <div class="input02">
                             전화번호: <br />
                             <input type="text" name="전화번호" style="width:90%;"/>
                         </div>
                     </div>
-                    <div class="select">
-                        <input type="checkbox" name="01" style="margin-right:10px;">피렌체의 석양
-                        <input type="checkbox" name="02" style="margin-right:10px;">파리의 오전
-                        <input type="checkbox" name="03" style="margin-right:10px;">아이슬란드의 야경
-                    </div>
                     <div class="button">
-                        <input type="button" class="btn01" value="예약하기" style="width:45%; color: #fff; background:#2A2465; font-size: 12px; padding:5px 20px; border-radius: 0.2em; border: none;
+                        <input type="button" class="btn01" value="예약조회" style="width:45%; color: #fff; background:#2A2465; font-size: 12px; padding:5px 20px; border-radius: 0.2em; border: none;
                         font-weight: 500;"></input>
-                        <input type="button" class="btn02" onclick="location.href='lookup.html'"  value="예약조회" style="width:45%; font-size: 12px; padding:5px 20px;  border-radius: 0.2em; border: #121212 1px;
+                        <input type="button" onclick="location.href='reservation.html'" class="btn02" value="예약하기" style="width:45%; font-size: 12px; padding:5px 20px;  border-radius: 0.2em; border: #121212 1px;
                         font-weight: 500;"></input>
                     </div>
                 </div>
@@ -115,7 +106,7 @@
     <script src="../js/jquery-3.6.0.js"></script>
     <script src="../js/responsive.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="../js/reservation.js"></script>
+    <script src="../js/lookup.js"></script>
     <script>
       AOS.init();
 </script>

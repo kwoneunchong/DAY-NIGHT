@@ -144,7 +144,6 @@
     font-weight: 500;
 }
 
-
 .btn01:hover { box-shadow: 200px 0 0 0 rgba(0,0,0,0.40) inset, -200px 0 0 0 rgba(0,0,0,0.40) inset; }
 .btn02:hover { box-shadow: 200px 0 0 0 rgba(0,0,0,0.10) inset, -200px 0 0 0 rgba(0,0,0,0.10) inset; }
 
@@ -164,8 +163,11 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
-
+#reservationsub  > .input > .button {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
 /*0 ~ 767*/
