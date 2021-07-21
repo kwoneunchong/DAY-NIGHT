@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../library/fontawesome-free-5.15.3-web/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="../library/air-datepicker-master/air-datepicker-master/dist/css/datepicker.css" rel="stylesheet" type="text/css">
 
 
 
@@ -58,7 +59,9 @@
                 <h3>예약안내</h3>
             </div>
             <div class="calendar" data-aos="fade-up" data-aos-duration="2000">
-                <img src="../images/calendar.png">
+                <!-- <img src="../images/calendar.png"> -->
+                <!-- <div class="datepicker-here" data-language='en' style="width: 400px; height: 300px; margin-top: 20px; margin: 0 auto;"></div> -->
+                <div class="datepicker-here" data-timepicker="true" data-language='en'></div>
                 <div id="reservationsub">
                     <p class="restitle">예약 정보를 입력해주세요.</p>
                     <hr />
@@ -113,11 +116,17 @@
         </div>
     </div>
     <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../library/air-datepicker-master/air-datepicker-master/dist/js/datepicker.js"></script>
+    <script src="../library/air-datepicker-master/air-datepicker-master/dist/js/i18n/datepicker.en.js"></script>
     <script src="../js/responsive.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../js/reservation.js"></script>
     <script>
       AOS.init();
+      // Initialization
+$('#my-element').datepicker([options])
+// Access instance of plugin
+$('#my-element').data('datepicker')
 </script>
 </body>
 </html>

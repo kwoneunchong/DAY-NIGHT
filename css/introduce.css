@@ -226,6 +226,11 @@
     margin-bottom: 120px;
 }
 
+.concept12 {
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
 
 
 /*0 ~ 767*/
@@ -234,6 +239,13 @@
         width: 100vw;
         margin: 0 auto;
         overflow: hidden;
+    }
+
+    .concept12 > img {
+        width: 90vw;
+        margin: 0 auto;
+        display: block;
+
     }
 }
 
