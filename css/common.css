@@ -87,7 +87,7 @@ ul { list-style: none; }
     display: none;
     background: #2A2465;
     color: white;
-    height: 100vh;
+    height: 100vw;
     width: 30vw;
     overflow: hidden;   /* vw, vh를 사용시 스크롤 현상이 생기는 것 방지 */ 
     position: fixed;    /* vw, vh를 사용시 스크롤 현상이 생기는 것 방지 */ 
@@ -108,7 +108,6 @@ ul { list-style: none; }
     
     #main_navbar .logo {
         padding-top: 8px;
-        align-content: center;
         margin-left: 80px;
     }
 
@@ -141,7 +140,6 @@ ul { list-style: none; }
 
     #main_navbar .logo {
         padding-top: 8px;
-        align-content: center;
         margin-left: 80px;
     }
 
@@ -194,7 +192,6 @@ ul { list-style: none; }
 
     #main_navbar .logo {
         padding-top: 8px;
-        align-content: center;
         margin-left: 80px;
     }
 
