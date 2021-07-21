@@ -87,7 +87,7 @@ ul { list-style: none; }
     display: none;
     background: #2A2465;
     color: white;
-    height: 100vw;
+    height: 100vh;
     width: 30vw;
     overflow: hidden;   /* vw, vh를 사용시 스크롤 현상이 생기는 것 방지 */ 
     position: fixed;    /* vw, vh를 사용시 스크롤 현상이 생기는 것 방지 */ 
