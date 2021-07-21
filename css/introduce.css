@@ -57,7 +57,7 @@
     overflow: hidden;
 }
 
-#title { 
+.title { 
     margin-top: 120px;
     text-align: center;
 }
@@ -124,7 +124,7 @@
         float: none;
     }
 
-    #title { 
+    .title { 
         text-align: center;
     }
 
@@ -160,7 +160,7 @@
         overflow: hidden;
     }
     
-    #title { 
+    .title { 
         margin-top: 120px;
         text-align: center;
     }
