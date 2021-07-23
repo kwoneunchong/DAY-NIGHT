@@ -66,17 +66,17 @@
                     <div class="input">
                         <div class="input01">
                             인원수: <br />
-                            <input type="text" name="인원수" style="width:90%;"/>
+                            <input type="text" id="people" name="인원수" style="width:90%;"/>
                         </div>
                         <div class="input02">
                             전화번호: <br />
-                            <input type="text" name="전화번호" style="width:90%;"/>
+                            <input type="text" id="phone" name="전화번호" style="width:90%;"/>
                         </div>
                     </div>
                     <div class="select">
-                        <input type="checkbox" name="01" style="margin-right:10px;" />피렌체의 석양
-                        <input type="checkbox" name="02" style="margin-right:10px;" />파리의 오전
-                        <input type="checkbox" name="03" style="margin-right:10px;" />아이슬란드의 야경
+                        <input type="checkbox" name="reservation_chk" style="margin-right:10px;" />피렌체의 석양
+                        <input type="checkbox" name="reservation_chk" style="margin-right:10px;" />파리의 오전
+                        <input type="checkbox" name="reservation_chk" style="margin-right:10px;" />아이슬란드의 야경
                     </div>
                     <div class="button">
                         <input type="button" class="btn01" value="예약하기" style="width:45%; color: #fff; background:#2A2465; font-size: 12px; padding:5px 20px; border-radius: 0.2em; border: none;
@@ -122,9 +122,9 @@
     <script>
       AOS.init();
       // Initialization
-$('#my-element').datepicker([options])
-// Access instance of plugin
-$('#my-element').data('datepicker')
+      $('#my-element').datepicker();
+      // Access instance of plugin
+      $('#my-element').data('datepicker');
 </script>
 </body>
 </html>
